@@ -1,0 +1,67 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    
+}
+.nav-flex {
+    display: flex;
+    border-bottom: 2px solid blue;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-flex ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+.title p {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid blue;
+    width: 40%;
+    font-size: 900%;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.title {
+    margin-top: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.background-image {
+    background-image: url(images/kitchen2.jpg);
+    background-size: cover;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    padding-bottom: 350px;
+    
+}
+.bread {
+    display: flex;
+    color: white;
+    background-color: black;
+}
+.pineapple {
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+.pasta {
+    display: flex;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+h1, h2 {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
